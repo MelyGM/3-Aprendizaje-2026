@@ -11,7 +11,7 @@ __author__ = "Julio Waissman"
 __date__ = "enero 2025"
 
 __author__ = "Melina González Méndez"
-__date__ = "febrero 2025"
+__date__ = "febrero 2026"
 
 
 import math
