@@ -128,3 +128,10 @@ imprime_tabla(
     filas_k,
     ["k", "Acc_train", "Acc_val"]
 )
+
+
+#Conclusión:
+#Al aumentar el número de árboles, la precisión en validación mejora y luego se mantiene estable porque la votación ayuda a 
+# reducir errores. Con poca profundidad el modelo aprende poco, pero desde profundidad 3 ya funciona muy bien. 
+# Si k es muy grande, los árboles se vuelven muy parecidos y el bosque pierde diversidad, 
+# por eso un k intermedio suele dar mejores resultados.
