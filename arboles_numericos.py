@@ -49,6 +49,9 @@ def entrena_arbol(datos, target, clase_default,
         El nodo raíz del árbol de desición
     
     """
+    if len(datos) == 0:
+        return NodoN(terminal=True, clase_default=clase_default)
+        
     atributos = list(datos[0].keys())
     atributos.remove(target)
         
